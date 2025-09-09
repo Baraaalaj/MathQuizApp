@@ -1,50 +1,69 @@
 # ➕ Math Quiz App
 
-تطبيق أندرويد تعليمي وتفاعلي لتحدي مهارات المستخدم في الرياضيات. يحتوي على ثلاث مستويات مختلفة من الأسئلة: **سهل، متوسط، وصعب**، مع نظام توقيت لكل سؤال، ونتائج مفصلة في نهاية الاختبار.
+An educational and interactive Android application designed to challenge users’ math skills.  
+The app offers three difficulty levels — **Easy, Medium, and Hard** — with a countdown timer for each question and detailed results at the end of the quiz.
 
-## 🎯 الميزات
+---
 
-- 🧠 ثلاث مستويات من الأسئلة:  
-  - سهل  
-  - متوسط  
-  - صعب  
-- ⏱️ توقيت محدد لكل سؤال لزيادة التحدي  
-- ✅ عرض جميع الأسئلة مع الإجابات الصحيحة بعد انتهاء الاختبار  
-- 📊 حساب النتيجة النهائية وإظهارها للمستخدم  
-- 🎨 واجهة استخدام بسيطة وسهلة التفاعل  
-- 📱 متوافق مع أجهزة Android
+## 🎯 Features
 
-## 📸 صور من التطبيق
+- 🧠 Three levels of questions:  
+  - Easy  
+  - Medium  
+  - Hard  
+- ⏱️ Countdown timer for each question to increase challenge  
+- ✅ Review all questions with correct answers after finishing the quiz  
+- 📊 Final score calculation and display  
+- 🎨 Simple and user-friendly interface  
+- 📱 Compatible with Android devices  
 
-> بعد رفع الصور داخل مجلد `screenshots`، استخدم الروابط التالية:
+---
+
+## 📸 Screenshots
+
+> After uploading your screenshots inside the `screenshots` folder, use the following paths:
 
 ![Home Screen](screenshots/home.png)  
 ![Quiz Screen](screenshots/quiz.png)  
 ![Result Screen](screenshots/result.png)
 
-## ⚙️ التقنيات المستخدمة
+---
 
-- **Kotlin** – اللغة الأساسية للتطوير  
+## ⚙️ Tech Stack
+
+- **Kotlin** – main programming language  
 - **Android SDK**  
-- **ViewBinding** – لربط الواجهة بالكود  
-- **Material Design Components** – لتصميم واجهة المستخدم  
-- **CountDownTimer** – لإدارة الوقت في الأسئلة
+- **ViewBinding** – to bind UI with code  
+- **Material Design Components** – for a modern UI  
+- **CountDownTimer** – for managing quiz timing  
 
-## 🚀 طريقة التشغيل
+---
 
-1. افتح المشروع باستخدام Android Studio  
-2. تأكد من إعداد مكتبة `libs.versions.toml` بشكل صحيح  
-3. شغّل التطبيق على المحاكي أو جهاز Android حقيقي
+## 🚀 Getting Started
 
-## 📦 حالة المشروع
+1. Open the project in **Android Studio**  
+2. Ensure your `libs.versions.toml` is set up correctly  
+3. Run the app on an emulator or a real Android device  
 
-المشروع جاهز ويعمل بكفاءة، مع خطط مستقبلية لإضافة ميزات مثل:
+---
 
-- 🔍 مراجعة الإجابات بعد كل سؤال  
-- 🏆 حفظ أعلى النتائج  
-- 🌐 مشاركة النتيجة عبر وسائل التواصل  
-- 📈 تحليل الأداء حسب المستوى
+## 📦 Project Status
 
-## 🤝 المساهمة
+The app is **fully functional**, with future plans to add:
 
-إذا كنت مهتمًا بتطوير التطبيق أو إضافة ميزات جديدة، لا تتردد في فتح Pull Request أو إنشاء Issue. كل مساهمة مرحب بها!
+- 🔍 Answer review after each question  
+- 🏆 High-score saving system  
+- 🌐 Share results on social media  
+- 📈 Performance analysis by difficulty level  
+
+---
+
+## 🤝 Contribution
+
+Contributions are welcome! If you’d like to improve the app or add new features:  
+- Open a **Pull Request**  
+- Or create an **Issue**  
+
+Every contribution is highly appreciated 💙  
+
+---
